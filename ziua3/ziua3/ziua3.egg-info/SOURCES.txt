@@ -1,0 +1,7 @@
+README.md
+setup.py
+ziua3/ziua3.egg-info/PKG-INFO
+ziua3/ziua3.egg-info/SOURCES.txt
+ziua3/ziua3.egg-info/dependency_links.txt
+ziua3/ziua3.egg-info/requires.txt
+ziua3/ziua3.egg-info/top_level.txt

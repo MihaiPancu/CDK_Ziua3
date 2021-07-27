@@ -1,0 +1,300 @@
+{
+  "version": "13.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "Ziua3Stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Ziua3Stack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/Ziua3Stack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392",
+              "id": "4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392",
+              "packaging": "zip",
+              "sourceHash": "4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392",
+              "s3BucketParameter": "AssetParameters4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392S3BucketBF7A7F3F",
+              "s3KeyParameter": "AssetParameters4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392S3VersionKeyFAF93626",
+              "artifactHashParameter": "AssetParameters4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392ArtifactHashE56CD69A"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "new CustomResourceProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:59:29)",
+              "Function.getOrCreateProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:135:94)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1029:56)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/MyFirstBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstBucketB8884501",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:573:26)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/MyFirstBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstBucketPolicy3243DEFD",
+            "trace": [
+              "new BucketPolicy (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket-policy.js:32:25)",
+              "Bucket.addToResourcePolicy (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:142:27)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1036:14)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/MyFirstBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyFirstBucketAutoDeleteObjectsCustomResourceC52FCF6E",
+            "trace": [
+              "new CustomResource (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource.js:30:25)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1048:32)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092",
+            "trace": [
+              "new CustomResourceProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:73:22)",
+              "Function.getOrCreateProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:135:94)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1029:56)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F",
+            "trace": [
+              "new CustomResourceProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:89:25)",
+              "Function.getOrCreateProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:135:94)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1029:56)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/AssetParameters/4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392S3BucketBF7A7F3F",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "new CustomResourceProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:59:29)",
+              "Function.getOrCreateProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:135:94)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1029:56)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/AssetParameters/4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392S3VersionKeyFAF93626",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "new CustomResourceProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:59:29)",
+              "Function.getOrCreateProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:135:94)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1029:56)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/AssetParameters/4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4cd61014b71160e8c66fe167e43710d5ba068b80b134e9bd84508cf9238b2392ArtifactHashE56CD69A",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:83:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:87:31)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stack.js:425:33)",
+              "new CustomResourceProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:59:29)",
+              "Function.getOrCreateProvider (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/custom-resource-provider/custom-resource-provider.js:135:94)",
+              "Bucket.enableAutoDeleteObjects (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:1029:56)",
+              "new Bucket (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/aws-s3/lib/bucket.js:627:18)",
+              "obj._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8154:58)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "Kernel._create (/tmp/tmpbqf4iqm7/lib/program.js:8154:34)",
+              "Kernel.create (/tmp/tmpbqf4iqm7/lib/program.js:7895:29)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "construct (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9)",
+              "visit (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "_wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:7970:134)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "ret._ensureSync (/tmp/tmpbqf4iqm7/lib/program.js:7970:107)",
+              "Kernel._ensureSync (/tmp/tmpbqf4iqm7/lib/program.js:8563:28)",
+              "Kernel.invoke (/tmp/tmpbqf4iqm7/lib/program.js:7970:34)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ],
+        "/Ziua3Stack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "construct (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9)",
+              "visit (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/tmp/jsii-kernel-tQPDhd/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "_wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:7970:134)",
+              "Kernel._wrapSandboxCode (/tmp/tmpbqf4iqm7/lib/program.js:8582:24)",
+              "ret._ensureSync (/tmp/tmpbqf4iqm7/lib/program.js:7970:107)",
+              "Kernel._ensureSync (/tmp/tmpbqf4iqm7/lib/program.js:8563:28)",
+              "Kernel.invoke (/tmp/tmpbqf4iqm7/lib/program.js:7970:34)",
+              "KernelHost.processRequest (/tmp/tmpbqf4iqm7/lib/program.js:9479:36)",
+              "KernelHost.run (/tmp/tmpbqf4iqm7/lib/program.js:9442:22)",
+              "Immediate.setImmediate [as _onImmediate] (/tmp/tmpbqf4iqm7/lib/program.js:9443:46)",
+              "runCallback (timers.js:705:18)",
+              "tryOnImmediate (timers.js:676:5)",
+              "processImmediate (timers.js:658:5)"
+            ]
+          }
+        ]
+      },
+      "displayName": "Ziua3Stack"
+    }
+  }
+}
